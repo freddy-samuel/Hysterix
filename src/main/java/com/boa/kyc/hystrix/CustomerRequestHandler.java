@@ -1,6 +1,7 @@
 package com.boa.kyc.hystrix;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
@@ -29,6 +30,7 @@ public class CustomerRequestHandler {
 		return response;
 	}
 	
+	@Bean
 	public RestTemplate getInstance() {
 		return new RestTemplate();
 	}
