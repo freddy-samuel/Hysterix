@@ -1,4 +1,4 @@
-package com.boa.kyc.eureka;
+package com.boa.kyc.hystrix;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
