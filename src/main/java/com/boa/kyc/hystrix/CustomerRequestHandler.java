@@ -28,4 +28,8 @@ public class CustomerRequestHandler {
 				}).getBody();
 		return response;
 	}
+	
+	public RestTemplate getInstance() {
+		return new RestTemplate();
+	}
 }
